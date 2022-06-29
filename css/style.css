@@ -1,0 +1,46 @@
+nav{
+    background-color: #174f83;
+}
+
+section{
+    min-height: 300px;
+}
+
+.jumbotron{
+    background: url(../img/CHINA15.JPG);
+    background-size: cover;
+    color: white;
+}
+
+.jumbotron img{
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, .5);
+}
+
+.jumbotron h1,
+.jumbotron p{
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
+}
+
+.portfolio .card {
+    opacity: 0;
+    transform: translate(0, -45px);
+    transition: .5s;
+}
+
+.portfolio .card.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.card-contact{
+    background-color: #174f83;
+}
+
+.btn{
+    background-color: #174f83 !important;
+}
+
+.footer{
+    background-color: rgb(241, 239, 239);
+    font-weight: 500;
+}
